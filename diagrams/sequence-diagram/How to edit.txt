@@ -1,0 +1,1 @@
+Paste the 'sequence-diagram.txt' contents in https://sequencediagram.org

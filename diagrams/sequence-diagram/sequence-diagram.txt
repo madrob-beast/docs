@@ -1,0 +1,30 @@
+title MADROB-BEAST Benchmark Sequence Diagram
+
+GUI->BMS Core:Start benchmark
+loop for each testbed setup ROS service
+BMS Core->Testbed:Call service to set testbed parameter
+activate Testbed
+BMS Core<--Testbed:Done
+deactivate Testbed
+end
+BMS Core->Rosbag Recorder:Start recording ROS topics
+activate Rosbag Recorder
+BMS Core->Pre-processing scripts:Start writing pre-processed CSVs
+activate Pre-processing scripts
+activate BMS Core
+note over Pre-processing scripts:Write CSVs\nbased on topic data
+note over BMS Core:Benchmark\nrunning
+GUI->BMS Core:Stop benchmark
+deactivate BMS Core
+BMS Core->Pre-processing scripts:Stop writing pre-processed CSVs
+note over Pre-processing scripts:Final pre-processing\ncalculations
+Pre-processing scripts-->BMS Core: Done
+deactivate Pre-processing scripts
+BMS Core->Rosbag Recorder:Stop recording
+deactivate Rosbag Recorder
+loop for each Performance Indicator
+BMS Core->PI scripts:Calculate Performance Indicator
+activate PI scripts
+BMS Core<--PI scripts:PI result
+deactivate PI scripts
+end
