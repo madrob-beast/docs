@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="26cm" height="15cm" viewBox="319 209 502 293" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="350" y="318.05" width="200" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="350" y="318.05" width="200" height="40"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="350" y="210" width="200" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="350" y="210" width="200" height="40"/>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="320" y1="290" x2="820" y2="290"/>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="570" y="287">
+    <tspan x="570" y="287">Ground Station</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="570" y="301.9">
+    <tspan x="570" y="301.9">Testbed (Door / Trolley)</tspan>
+  </text>
+  <text font-size="14.1111" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="234.695">
+    <tspan x="450" y="234.695">Ground Station (laptop)</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="350" y="390.5" width="200" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="350" y="390.5" width="200" height="40"/>
+  </g>
+  <text font-size="11.2889" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="407.369">
+    <tspan x="450" y="407.369">Testbed PC</tspan>
+    <tspan x="450" y="421.48">(Raspberry PI/Nvidia Jetson Nano)</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="410.5">
+    <tspan x="450" y="410.5"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="350" y="460.5" width="200" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="350" y="460.5" width="200" height="40"/>
+  </g>
+  <text font-size="14.1111" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="485.4">
+    <tspan x="450" y="485.4">NovaLabs Boards</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="480.5">
+    <tspan x="450" y="480.5"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="700" y="390.5" width="80" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="700" y="390.5" width="80" height="40"/>
+  </g>
+  <text font-size="11.2889" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="740" y="410.5">
+    <tspan x="740" y="410.5">Access</tspan>
+    <tspan x="740" y="424.611">Point / Switch</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="550" y="226.255">
+    <tspan x="550" y="226.255"> WiFi (BEAST) WiFi/Ethernet (MADROB)</tspan>
+  </text>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="550,410.5 551,410.5 697.995,410.5 698.995,410.5 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="450,459.495 450,458.495 450,431.5 450,430.5 "/>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="550" y="407.5">
+    <tspan x="550" y="407.5"> Ethernet</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="457.5">
+    <tspan x="450" y="457.5"> USB</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="740" y="410.5">
+    <tspan x="740" y="410.5"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="740" y="410.5">
+    <tspan x="740" y="410.5"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="820" y="390.5">
+    <tspan x="820" y="390.5"></tspan>
+  </text>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" points="740,390.5 740,230 550,230 "/>
+  <text font-size="14.1111" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="342.95">
+    <tspan x="450" y="342.95">External SSD Drive</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="338.05">
+    <tspan x="450" y="338.05"></tspan>
+  </text>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="450,359.055 450,360.055 450,389.5 450,390.5 "/>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="369.95">
+    <tspan x="450" y="369.95"> USB</tspan>
+  </text>
+</svg>

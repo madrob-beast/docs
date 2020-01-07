@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="45cm" height="34cm" viewBox="119 -508 882 662" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="120" y="-492.838" width="880" height="218.742"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="120" y="-492.838" width="880" height="218.742"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="120" y="-240" width="880" height="392.3"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="120" y="-240" width="880" height="392.3"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="260" y="-220" width="240" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="260" y="-220" width="240" height="40"/>
+  </g>
+  <text font-size="14.1111" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="380" y="-195.1">
+    <tspan x="380" y="-195.1">Rosbag Recorder</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="260" y="-90.3078" width="240" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="260" y="-90.3078" width="240" height="40"/>
+  </g>
+  <text font-size="14.1111" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="342.142" y="-64.9798">
+    <tspan x="342.142" y="-64.9798">BMS Core</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="700.82" y="-432.838" width="240" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="700.82" y="-432.838" width="240" height="40"/>
+  </g>
+  <text font-size="14.1111" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="820.82" y="-407.938">
+    <tspan x="820.82" y="-407.938">BMS GUI</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="700.82" y="-43.8555" width="240" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="700.82" y="-43.8555" width="240" height="40"/>
+  </g>
+  <text font-size="14.1111" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="820.82" y="-18.9555">
+    <tspan x="820.82" y="-18.9555">Testbed Control</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="-66.8138">
+    <tspan x="400" y="-66.8138"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="-200">
+    <tspan x="720" y="-200"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="820.82" y="-23.8555">
+    <tspan x="820.82" y="-23.8555"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="260" y="-50.087" width="240" height="170.087"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="260" y="-50.087" width="240" height="170.087"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="280" y="-33.581" width="200" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="280" y="-33.581" width="200" height="20"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="380" y="-19.131">
+    <tspan x="380" y="-19.131">Testbed Communication</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="280" y="16.419" width="200" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="280" y="16.419" width="200" height="20"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="380" y="30.869">
+    <tspan x="380" y="30.869">Pre-Processing Scripts</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="280" y="78.34" width="200" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="280" y="78.34" width="200" height="20"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="380" y="92.79">
+    <tspan x="380" y="92.79">Performance Indicator Scripts</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="500" y="-20">
+    <tspan x="500" y="-20"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="520" y="20">
+    <tspan x="520" y="20"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="520" y="60">
+    <tspan x="520" y="60"></tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="380" y1="-90.3078" x2="380" y2="-175.528"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="385,-167.764 380,-177.764 375,-167.764 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="700.82,-412.838 600.41,-412.838 600.41,-70.3078 504.472,-70.3078 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="512.236,-75.3078 502.236,-70.3078 512.236,-65.3078 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="820.82" y1="-43.8555" x2="820.82" y2="-388.366"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="825.82,-380.602 820.82,-390.602 815.82,-380.602 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="480,-23.581 589.906,-23.581 589.906,-23.8555 695.34,-23.8555 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="687.576,-18.8555 697.576,-23.8555 687.576,-28.8555 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="820.82,-3.85552 820.82,26.419 484.472,26.419 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="492.236,21.419 482.236,26.419 492.236,31.419 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="280" y1="26.419" x2="211.69" y2="26.1952"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="219.47,21.2207 209.454,26.1879 219.438,31.2207 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="280" y1="88.34" x2="210.772" y2="88.5249"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="218.523,83.5042 208.536,88.5309 218.549,93.5042 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="150.41" y="8.69422" width="50.9091" height="25.4545"/>
+    <ellipse style="fill: #ffffff" cx="175.865" cy="34.1488" rx="25.4545" ry="7.27273"/>
+    <ellipse style="fill: #ffffff" cx="175.865" cy="8.69422" rx="25.4545" ry="7.27273"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" d="M 150.41 8.69422 L 150.41,34.1488"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" d="M 201.319 8.69422 L 201.319,34.1488"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" d="M 150.41 8.69422 C 150.41,4.67767 165.823,1.42149 175.865,1.42149 C 185.906,1.42149 201.319,4.67767 201.319,8.69422"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" d="M 150.41 8.69422 C 150.41,12.7108 165.823,15.9669 175.865,15.9669 C 185.906,15.9669 201.319,12.7108 201.319,8.69422"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" d="M 150.41 15.0579 C 150.41,19.0744 165.823,22.3306 175.865,22.3306 C 185.906,22.3306 201.319,19.0744 201.319,15.0579"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" d="M 150.41 21.4215 C 150.41,25.438 165.823,28.6942 175.865,28.6942 C 185.906,28.6942 201.319,25.438 201.319,21.4215"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" d="M 150.41 27.7851 C 150.41,31.8017 165.823,35.0579 175.865,35.0579 C 185.906,35.0579 201.319,31.8017 201.319,27.7851"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" d="M 150.41 34.1488 C 150.41,38.1653 165.823,41.4215 175.865,41.4215 C 185.906,41.4215 201.319,38.1653 201.319,34.1488"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="175.865" y="55.2397">
+      <tspan x="175.865" y="55.2397"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="150.721" y="80.9454" width="50.9091" height="25.4545"/>
+    <ellipse style="fill: #ffffff" cx="176.176" cy="106.4" rx="25.4545" ry="7.27273"/>
+    <ellipse style="fill: #ffffff" cx="176.176" cy="80.9454" rx="25.4545" ry="7.27273"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" d="M 150.721 80.9454 L 150.721,106.4"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" d="M 201.63 80.9454 L 201.63,106.4"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" d="M 150.721 80.9454 C 150.721,76.9288 166.134,73.6726 176.176,73.6726 C 186.217,73.6726 201.63,76.9288 201.63,80.9454"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" d="M 150.721 80.9454 C 150.721,84.9619 166.134,88.2181 176.176,88.2181 C 186.217,88.2181 201.63,84.9619 201.63,80.9454"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" d="M 150.721 87.309 C 150.721,91.3256 166.134,94.5817 176.176,94.5817 C 186.217,94.5817 201.63,91.3256 201.63,87.309"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" d="M 150.721 93.6726 C 150.721,97.6892 166.134,100.945 176.176,100.945 C 186.217,100.945 201.63,97.6892 201.63,93.6726"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" d="M 150.721 100.036 C 150.721,104.053 166.134,107.309 176.176,107.309 C 186.217,107.309 201.63,104.053 201.63,100.036"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" d="M 150.721 106.4 C 150.721,110.416 166.134,113.673 176.176,113.673 C 186.217,113.673 201.63,110.416 201.63,106.4"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="176.176" y="127.491">
+      <tspan x="176.176" y="127.491"></tspan>
+    </text>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="381.448" y="-147.133">
+    <tspan x="381.448" y="-147.133">srvs:</tspan>
+    <tspan x="381.448" y="-131.133">Start/Stop recording</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="605.502" y="-380">
+    <tspan x="605.502" y="-380">srvs: Start/Stop benchmark</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="623.536" y="-185.647">
+    <tspan x="623.536" y="-185.647"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="411.708" y="-142.548">
+    <tspan x="411.708" y="-142.548"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="547.426" y="-36.1756">
+    <tspan x="547.426" y="-36.1756"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="506.891" y="-32.289">
+    <tspan x="506.891" y="-32.289">Testbed setup ROS services</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="662.05" y="-27.0056">
+    <tspan x="662.05" y="-27.0056"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="508.582" y="18.0691">
+    <tspan x="508.582" y="18.0691">Testbed state ROS topics</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="706.984" y="17.0105">
+    <tspan x="706.984" y="17.0105"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="823.133" y="-53.0601">
+    <tspan x="823.133" y="-53.0601">Testbed state ROS topics</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="700.82" y1="-43.8555" x2="503.702" y2="-177.49"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="512.934,-177.272 501.851,-178.745 507.322,-168.995 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="660" y="-80">
+    <tspan x="660" y="-80">All topics</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="175.793" y="-18.9407">
+    <tspan x="175.793" y="-18.9407">Pre-processed</tspan>
+    <tspan x="175.793" y="-2.9407">CSVs</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="195.974" y="-3.80514">
+    <tspan x="195.974" y="-3.80514"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="177.421" y="129.917">
+    <tspan x="177.421" y="129.917">Performance</tspan>
+    <tspan x="177.421" y="145.917">Results</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="200.178" y="128.36">
+    <tspan x="200.178" y="128.36"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="212.792" y="128.36">
+    <tspan x="212.792" y="128.36"></tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="940" y="-220">
+    <tspan x="940" y="-220"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="120" y="-243">
+    <tspan x="120" y="-243">Testbed PC</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="120" y="-495.838">
+    <tspan x="120" y="-495.838">Ground Station</tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="175.865,41.4215 175.865,59.8808 380,59.8808 380,73.8679 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="375,66.104 380,76.104 385,66.104 "/>
+  </g>
+</svg>
