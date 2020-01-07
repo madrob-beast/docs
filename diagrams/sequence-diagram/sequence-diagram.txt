@@ -7,6 +7,7 @@ activate Testbed
 BMS Core<--Testbed:Done
 deactivate Testbed
 end
+BMS Core->Testbed Configuration DB:Save testbed configuration yaml file
 BMS Core->Rosbag Recorder:Start recording ROS topics
 activate Rosbag Recorder
 BMS Core->Pre-processing scripts:Start writing pre-processed CSVs
