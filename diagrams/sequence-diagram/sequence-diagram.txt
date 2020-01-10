@@ -8,8 +8,8 @@ BMS Core<--Testbed:Done
 deactivate Testbed
 end
 BMS Core->Testbed Configuration DB:Save testbed configuration yaml file
-BMS Core->Rosbag Recorder:Start recording ROS topics
-activate Rosbag Recorder
+BMS Core->Rosbag Controller:Start recording ROS topics
+activate Rosbag Controller
 BMS Core->Pre-processing scripts:Start writing pre-processed CSVs
 activate Pre-processing scripts
 activate BMS Core
@@ -21,8 +21,8 @@ BMS Core->Pre-processing scripts:Stop writing pre-processed CSVs
 note over Pre-processing scripts:Final pre-processing\ncalculations
 Pre-processing scripts-->BMS Core: Done
 deactivate Pre-processing scripts
-BMS Core->Rosbag Recorder:Stop recording
-deactivate Rosbag Recorder
+BMS Core->Rosbag Controller:Stop recording
+deactivate Rosbag Controller
 loop for each Performance Indicator
 BMS Core->PI scripts:Calculate Performance Indicator
 activate PI scripts
