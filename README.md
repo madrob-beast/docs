@@ -8,7 +8,7 @@ A collection of technical documents concerning the MADROB and BEAST projects.
 
 ---
 ### ROS Nodes, Topics and Services
-![Ros Nodes](/diagrams/ROS_Nodes_rev_2.svg)
+![Ros Nodes](/diagrams/ROS_Nodes_rev_3.svg)
 
 ---
 ### Sequence Diagram: Running a benchmark
