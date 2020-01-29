@@ -76,6 +76,7 @@ These two filtering operations depend from the following parameters: `moving ave
 Columns: timestamp [float] (absolute ros time: seconds since epoc), door angular acceleration [rad/(s^2)].
 
 
+
 # MADROB Performance Indicators
 
 Each Performance Indicator (PI) is described by:
@@ -91,6 +92,7 @@ Algorithm or formula used to generate the Output from the Input.
 
 **Parameters**
 Values influencing the result of the PI.
+
 
 
 ## Performance Indicator: Overall execution time
@@ -113,13 +115,13 @@ The output is the difference between time of event `benchmark start` and time of
 
 Note: What if the robot never reaches the final step? should the result be the value of timeout or `infinite`? 
 
-
 ### Parameters
 None.
 
 ### Notes
 Execution Time cannot exceed the timeout.
 This measure uses the `start benchmark` event to take into account the time employed by the humanoid to percieve the door and plan its actions.
+
 
 
 ## Performance Indicator: Time to handle
@@ -132,7 +134,7 @@ This measure uses the `start benchmark` event to take into account the time empl
 None
 
 ### Output
-Time To Handle
+Time elapsed from the start of the benchmark to the first time the handle is touched by the robot/humanoid. This PI accounts for the time the robot takes to perceive the door, plan its actions and start opening the door.
 
 ### Computation method
 Time elapsed from event `benchmark start` to event `handle is touched`.
@@ -146,7 +148,8 @@ None
 Time To Handle cannot exceed the timeout.
 
 
-## Performance Indicator: Door Occupation Time
+
+## Performance Indicator: Door occupation time
 ### Input
 
 #### Pre-processed data:
@@ -157,7 +160,7 @@ Time To Handle cannot exceed the timeout.
  - destination side
 
 ### Output
-Door Occupation Time
+Time elapsed between the humanoid approaching the door from the starting side and the humanoid leaving the destination side (measured by sensors detecting when the humanoid is present in the proximity of the door on each side).
 
 ### Computation method
 Time elapsed from event `humanoid approaches the door on [c]cw side` to event `humanoid moves to [c]cw side`.
@@ -186,7 +189,7 @@ This measure may be affected by the robot shape since it relies on the passage s
  - destination side
 
 ### Output
-Time it takes the humanoid to operate the door, reach the destination side and close the door.
+Time elapsed between the humanoid starts opening the door (touching the handle) and the humanoid closes the door after reaching the destination side.
 
 ### Computation method
 The `final event` is considered as the last `door closes` event, occurring after an event `humanoid moves to cw side` or `humanoid moves to ccw side`, depending on `destination side` for the run.
@@ -199,34 +202,34 @@ None.
 ### Notes
 Execution Time cannot exceed the timeout.
 This measure is similar to the PIs Door occupation time and Overall execution time, but avoids using the timing of the events `benchmark start` and passage events, that rely on manual timing (starting benchmark and the robot at the same time), and may give results skewed by the robot shape (laser sensors may provide different timings based on the height/shape of the robot).
-The different with the PI Overall execution time is that the time took by the robot to perceive the door and plan its actions is excluded.
+The difference with the PI Overall execution time is that the time took by the robot to perceive the door and plan its actions is excluded.
 
 
 
-## Performance Indicator: Maximum door acceleration
+## Performance Indicator: Unsafety of door operation
 ### Input
 
 #### Pre-processed data:
- - door angular acceleration (Filtered?)
+ - door angular acceleration
 
 #### Testbed configuration values:
 None
 
 ### Output
-Maximum door acceleration
+This PI is a measurement of the safety of door operation by the robot based on the maximum angular acceleration of the door panel.
 
 ### Computation method
-`max(a), for each value of angular acceleration a`
+`max(abs(a)), for each value of angular acceleration a`
 
 ### Parameters
 Parameters of filter applied to door angular acceleration signal (see Notes)
 
 ### Notes
-High angular accelerations correspond to high forces exerted on any object or person touching the door panel. The smoother the door panel movement, the lower the risk of serious incidents.
-Thus, this indicator is a measurement of the safety of door management by the robot. 
+This PI is a measurement of the unsafety of door operation by the robot.
+High angular accelerations correspond to sudden movements and high forces exerted on any object or person touching the door panel.
+The lower door acceleration, the lower the risk of serious incidents.
 High angular acceleration can indicate tremors in the robot's hand effectors.
-However, these are not as significant for safety because of the limited range of motion they impose to the door panel. 
-Therefore, it is necessary to introduce a further low-pass filtering of the acceleration data.
+However, these are not as significant for safety because of the limited range of motion they impose to the door panel, therefore low-pass filtering is applied to the door angular acceleration before computing this PI (as opposed to the PI Smoothness of door actuation).
 
 
 
@@ -240,7 +243,7 @@ Therefore, it is necessary to introduce a further low-pass filtering of the acce
 None
 
 ### Output
-Smoothness of door actuation
+This PI is a measurement of the smoothness of the actuation of the door panel based on its  angular acceleration.
 
 ### Computation method
 `1/sqrt(sum(a^2)), for each value of angular acceleration a`
@@ -250,11 +253,12 @@ None
 
 ### Notes
 To operate the door smoothly the humanoid should minimise the acceleration of the door.
+Angular accelerations and decelerations can indicate bumps against the handle/panel, tremors and unnecessary corrections by the humanoid in the actuation of the door panel.
 The acceleration values are squared to bias the indicator against higher values of acceleration.
 
 
 
-## Performance Indicator: Maximum force on handle
+## Performance Indicator: Roughness of actuation
 ### Input
 
 #### Pre-processed data:
@@ -264,17 +268,18 @@ The acceleration values are squared to bias the indicator against higher values 
 None
 
 ### Output
-Maximum value of force applied to the handle
+This PI measures how delicately the robot operates the door based on the maximum force applied to the handle.
 
 ### Computation method
-`max(f), for each value of force f`
+`max(abs(f)), for each value of force f`
 
 ### Parameters
 None
 
 ### Notes
 High force applied to the handle is a symptom of bad handling of the door and a risk for the integrity of the door.
-Force On Handle measures how delicate the robot is in operating the door.
+This PI measures how rough (or undelicate) the robot is in operating the door.
+
 
 
 ## Performance Indicator: Capability Level
