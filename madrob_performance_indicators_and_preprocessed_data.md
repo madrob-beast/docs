@@ -8,7 +8,7 @@ The terms **clockwise/CW** and **counterclockwise/CCW** identify the two possibl
 The same terms are also used to identify the two sides of the testbed area that are separated by the wall to which the door is affixed. Precisely, CW is the side entered by the door panel when it rotates in the CW direction; CCW the side it enters when it rotates in CCW direction.
 In the following, the values of `starting side` and `destination side` can be either `CW` or `CCW`.
 
-In the execution of the benchmark movement of the door can be constrained so that it only opens when rotated either CW or CCW. The **opening side** of the testbed area is the side towards which the door is allowed to move. The value of `opening side` can be either `CW` or `CCW`. Such value is independently from the value of `starting side`.
+In the execution of the benchmark movement of the door can be constrained so that it only opens when rotated either CW or CCW. The **opening side** of the testbed area is the side towards which the door is allowed to move. The value of `opening side` can be either `CW` or `CCW`. Such value is independent from the value of `starting side`.
 
 The **threshold** is the ideal line on the ground corresponding to the projection of the door panel when locked. The threshold separates the CW and CCW sides of the testbed. A robot *crosses the threshold* when it goes from a pose where its projection on the ground is entirely on one side of the threshold to a pose where its projection is entirely on the other side.
 
@@ -53,7 +53,7 @@ Pre-processed data are the inputs to the Performance Indicators.
 ## Pre-processed data: events sequence
 Time series containing detectable events as values.
 
-Columns: timestamp [float] (absolute ros time: seconds since epoc), event [string/enum].
+Columns: timestamp [float] (absolute ros time: seconds since epoch), event [string/enum].
 
 Events:
  - benchmark start: identifies the start of benchmark execution. This event is always present. The timing of this event is affected by a delay due to the people operating the robot having to manually start the robot.
@@ -71,13 +71,13 @@ Note: The process to generate passage signals, used to compute events `humanoid 
 ## Pre-processed data: force on handle
 Copy of raw data from topic /madrob/handle/force.
 
-Columns: timestamp [float] (absolute ros time: seconds since epoc), force [grams].
+Columns: timestamp [float] (absolute ros time: seconds since epoch), force [grams].
 
 
 ## Pre-processed data: door angular position
 Copy of raw data from topic /madrob/door/angle.
 
-Columns: timestamp [float] (absolute ros time: seconds since epoc), door angular position [rad].
+Columns: timestamp [float] (absolute ros time: seconds since epoch), door angular position [rad].
 
 
 ## Pre-processed data: door angular velocity
@@ -89,7 +89,7 @@ These two filtering operations depend from the following parameters: `moving ave
 
 `Savitzky-Golay polynomial order` is set to 2, the lowest possible value enabling the computation of angular velocity and acceleration. Higher values would introduce artefacts and require a larger window size.
 
-Columns: timestamp [float] (absolute ros time: seconds since epoc), door angular velocity [rad/s].
+Columns: timestamp [float] (absolute ros time: seconds since epoch), door angular velocity [rad/s].
 
 
 ## Pre-processed data: door angular acceleration
@@ -101,7 +101,7 @@ These two filtering operations depend from the following parameters: `moving ave
 
 `Savitzky-Golay polynomial order` is set to 2, the lowest possible value enabling the computation of angular velocity and acceleration. Higher values would introduce artefacts and require a larger window size.
 
-Columns: timestamp [float] (absolute ros time: seconds since epoc), door angular acceleration [rad/(s^2)].
+Columns: timestamp [float] (absolute ros time: seconds since epoch), door angular acceleration [rad/(s^2)].
 
 
 
@@ -126,7 +126,7 @@ Values influencing the result of the PI.
 ## Performance Indicator: Overall execution time
 ### Input
 
-#### pre-processed data:
+#### Pre-processed data:
  - events sequence
 
 #### Testbed configuration values:
@@ -144,7 +144,7 @@ None.
 
 ### Notes
 Execution Time cannot exceed the timeout.
-This measure uses the `start benchmark` event to take into account the time employed by the humanoid to percieve the door and plan its actions.
+This measure uses the `start benchmark` event to take into account the time employed by the humanoid to perceive the door and plan its actions.
 
 
 
