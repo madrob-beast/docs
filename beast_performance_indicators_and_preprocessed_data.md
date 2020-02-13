@@ -1,7 +1,7 @@
 # BEAST Benchmark procedure
 
 <p align="center">
-  <img src="/docs/img/beast_arena_checkpoints.png?raw=true" width="689" alt="Arena with checkpoints">
+  <img src="/img/beast_arena_checkpoints.png?raw=true" width="689" alt="Arena with checkpoints">
 </p>
 <p align="center">
  Arena with checkpoints
